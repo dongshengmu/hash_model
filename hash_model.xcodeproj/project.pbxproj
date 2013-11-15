@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		D24CCBDF16EF9D6000E292FD /* nat_hash.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = nat_hash.py; sourceTree = "<group>"; };
 		D263C89F161F4A190047538A /* hash_model.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = hash_model.py; sourceTree = "<group>"; };
 		D263C8A1161F4A190047538A /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		D263C8A7161F7F660047538A /* hash_result.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hash_result.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -22,6 +24,7 @@
 		D263C89E161F4A190047538A /* hash_model */ = {
 			isa = PBXGroup;
 			children = (
+				D24CCBDF16EF9D6000E292FD /* nat_hash.py */,
 				D263C89F161F4A190047538A /* hash_model.py */,
 				D263C8A0161F4A190047538A /* Supporting Files */,
 			);
@@ -32,6 +35,7 @@
 			isa = PBXGroup;
 			children = (
 				D263C8A1161F4A190047538A /* readme.txt */,
+				D263C8A7161F7F660047538A /* hash_result.txt */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -169,6 +173,7 @@
 				D263C8A6161F4A190047538A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
